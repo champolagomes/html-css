@@ -1,0 +1,59 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightslategray;
+}
+header{
+    background-color: lightslategray;
+    text-align: center;
+
+}
+main{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color:linen;
+    border: 1px solid mistyrose;
+    border-radius: 10px;
+
+    
+}
+nav{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+background-color:slategray;
+border: 1px solid;
+height: 50px;
+width: 100%;
+margin: auto;
+}
+a { 
+ font-family: Arial, Helvetica, sans-serif;
+text-decoration: solid;
+color: black;
+margin: 120px;
+
+
+
+
+ 
+  
+}
+a:hover{
+  color: mintcream;
+}
+
+
+
+
+
+
+    
+    
+
+
+   
+
+
+ 
+
+
+
+
+

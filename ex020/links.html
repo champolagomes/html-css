@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>seletores personalizados</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+        a{
+            
+            font-size: larger;
+            font-weight: 900;   
+           text-decoration: none;
+            
+        }
+        h1{
+            text-align: center;
+        }
+        a:hover {
+    background-color: darkgreen;
+   
+ }
+ a:active{
+    color: darkorchid;
+ }
+ a:visited{
+    color: blue;
+ }
+ 
+        a::after{
+    content:'-link';
+    font-family: 'Courier New', Courier, monospace;
+    color:darkred;
+}
+
+#content{
+    border: solid;
+    margin: auto;
+    width: 700px;
+    height: 400px; 
+   text-align: center;
+   background-color: lavender;
+   border-radius: 2%;
+    
+}
+
+   
+
+    </style>
+</head>
+<body>
+    <h1>
+        personalizando liks
+    </h1>
+<div id="content">
+    
+       
+           <ul>
+            <li><a href="https://www.youtube.com">YOUTUBE</a></li>
+            <li><a href="https://www.instagram.com">Instagran</a></li>
+            <li><a href="https://www.twitch.com">twite</a></li>
+           </ul>
+           
+</div>
+
+
+
+</body>
+</html>
